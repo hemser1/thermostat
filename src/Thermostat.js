@@ -6,5 +6,8 @@ function Thermostat() {
 Thermostat.prototype.getCurrentTemperature = function() {
   return this.temperature;
 };
+Thermostat.prototype.increase = function() {
+  this.temperature +=1;
+};
 
 };
