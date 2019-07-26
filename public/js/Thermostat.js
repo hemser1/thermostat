@@ -18,9 +18,6 @@ function Thermostat() {
     };
     this.temperature +=1;
   };
-  // Thermostat.prototype.decrease= function() {
-  //   this.temperature -=1;
-  // };
 
   Thermostat.prototype.isMinimumTemperature = function() {
     return this.temperature === this.MINIMUM_TEMPERATURE;
